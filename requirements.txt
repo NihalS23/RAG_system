@@ -1,0 +1,16 @@
+transformers
+torch==2.3.0
+sentence-transformers
+langchain-community
+langchain-chroma
+chromadb
+numpy
+pandas
+scikit-learn
+tqdm
+sentencepiece
+faiss
+pandas
+tqdm
+huggingface-cli
+nltk
