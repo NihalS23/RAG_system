@@ -45,7 +45,7 @@ def create_rag_system():
     model_name = "meta-llama/Llama-2-7b-chat-hf"
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    access_token = "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"  # Access token for authentication
+    access_token = "Enter_your_token_here"  # Access token for authentication
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     response_model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16, token=access_token).to(device)

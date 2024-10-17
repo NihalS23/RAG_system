@@ -6,7 +6,6 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
 # Always run huggingface-cli login in terminal and enter you access token
-# access_token = "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"
 
 # Download necessary NLTK data files
 nltk.download('stopwords')
